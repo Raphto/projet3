@@ -64,7 +64,6 @@ button
 }
 button:hover
 {
-
     background: linear-gradient(#efc0fa, #c9a4f5);
     box-shadow: 10px 10px 10px #545252;
     transform: scale(1.15); /*augmente taille bouton*/
@@ -208,7 +207,7 @@ ol
 .paletteimg
 {
 	width:100%;
-	height:150px;
+	height:250px;
 	border-radius:20px 20px 0 0;
 }
 #restaurant
@@ -225,7 +224,7 @@ ol
 {
   	margin-left: 25px;
 	text-align: center;
-	font-size: 150%;
+	font-size: 110%;
 	width: 100%;
 }
 .palette
@@ -245,7 +244,7 @@ ol
 
 .palette:hover
 {
-    transform: scale(1.15)
+    transform: scale(1.08)
 }
 .petittitre
 {
@@ -276,6 +275,7 @@ p
 }
 footer
 {
+
 	background-color: #242424;
 	text-align: left;
 	color: white;
@@ -285,6 +285,7 @@ footer
 h3
 {
 	font-family: shrikhandregular; 
+	font-weight: lighter;
 }
 .change-icon
 {
@@ -334,6 +335,268 @@ h3
     font-size: 80%;
     width: 25%;
     border-radius: 5px;
+}
+
+.animzer 
+{
+ 
+  animation-name: animzer; 
+    animation-duration: 5s;
+/*transition-delay: 5s;*/
+animation-iteration-count:1;
+opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+}
+
+@keyframes animzer {
+  0%, 90% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+
+
+.cssload-preloader {
+	font-family: shrikhandregular;
+	position: absolute;
+	background-color: white;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 10;
+		display: -ms-box;
+		display: -webkit-box;
+		display: -moz-box;
+	display: flex;
+		display: -o-flex;
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+	justify-content: center;
+		-o-justify-content: center;
+		-ms-justify-content: center;
+		-webkit-justify-content: center;
+		-moz-justify-content: center;
+	align-items: center;
+		-o-align-items: center;
+		-ms-align-items: center;
+		-webkit-align-items: center;
+		-moz-align-items: center;
+	transform-style: preserve-3d;
+		-o-transform-style: preserve-3d;
+		-ms-transform-style: preserve-3d;
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+	perspective: 1063px;
+		-o-perspective: 1063px;
+		-ms-perspective: 1063px;
+		-webkit-perspective: 1063px;
+		-moz-perspective: 1063px;
+	overflow: hidden;
+	animation: wobble 5.75s ease-in-out infinite;
+		-o-animation: wobble 5.75s ease-in-out infinite;
+		-ms-animation: wobble 5.75s ease-in-out infinite;
+		-webkit-animation: wobble 5.75s ease-in-out infinite;
+		-moz-animation: wobble 5.75s ease-in-out infinite;
+	padding-bottom: 4em;
+}
+
+
+.cssload-preloader > span {
+	font-size: 70px;
+	animation: 5.75s ease-in-out infinite;
+		-o-animation: 5.75s ease-in-out infinite;
+		-ms-animation: 5.75s ease-in-out infinite;
+		-webkit-animation: 5.75s ease-in-out infinite;
+		-moz-animation: 5.75s ease-in-out infinite;
+	color: transparent;
+	text-shadow: 0 0 0px rgb(0,0,0);
+}
+span:nth-child(-n+3) {
+	animation-delay: -2.88s;
+		-o-animation-delay: -2.88s;
+		-ms-animation-delay: -2.88s;
+		-webkit-animation-delay: -2.88s;
+		-moz-animation-delay: -2.88s;
+}
+
+span:nth-child(1),
+span:nth-last-child(1) {
+	animation-name: blur-1;
+		-o-animation-name: blur-1;
+		-ms-animation-name: blur-1;
+		-webkit-animation-name: blur-1;
+		-moz-animation-name: blur-1;
+}
+
+
+
+span:nth-child(2),
+span:nth-last-child(2) {
+	animation-name: blur-2;
+		-o-animation-name: blur-2;
+		-ms-animation-name: blur-2;
+		-webkit-animation-name: blur-2;
+		-moz-animation-name: blur-2;
+}
+
+
+
+span:nth-child(3),
+span:nth-last-child(3) {
+	animation-name: blur-3;
+		-o-animation-name: blur-3;
+		-ms-animation-name: blur-3;
+		-webkit-animation-name: blur-3;
+		-moz-animation-name: blur-3;
+}
+
+
+
+
+
+
+@keyframes blur-1 {
+	50% {
+		text-shadow: 0 0 0.15em rgb(0,0,0);
+	}
+}
+
+@-o-keyframes blur-1 {
+	50% {
+		text-shadow: 0 0 0.15em rgb(0,0,0);
+	}
+}
+
+@-ms-keyframes blur-1 {
+	50% {
+		text-shadow: 0 0 0.15em rgb(0,0,0);
+	}
+}
+
+@-webkit-keyframes blur-1 {
+	50% {
+		text-shadow: 0 0 0.15em rgb(0,0,0);
+	}
+}
+
+@-moz-keyframes blur-1 {
+	50% {
+		text-shadow: 0 0 0.15em rgb(0,0,0);
+	}
+}
+
+@keyframes blur-2 {
+	50% {
+		text-shadow: 0 0 0.075em rgb(0,0,0);
+	}
+}
+
+@-o-keyframes blur-2 {
+	50% {
+		text-shadow: 0 0 0.075em rgb(0,0,0);
+	}
+}
+
+@-ms-keyframes blur-2 {
+	50% {
+		text-shadow: 0 0 0.075em rgb(0,0,0);
+	}
+}
+
+@-webkit-keyframes blur-2 {
+	50% {
+		text-shadow: 0 0 0.075em rgb(0,0,0);
+	}
+}
+
+@-moz-keyframes blur-2 {
+	50% {
+		text-shadow: 0 0 0.075em rgb(0,0,0);
+	}
+}
+
+@keyframes blur-3 {
+	50% {
+		text-shadow: 0 0 0.05em rgb(0,0,0);
+	}
+}
+
+@-o-keyframes blur-3 {
+	50% {
+		text-shadow: 0 0 0.05em rgb(0,0,0);
+	}
+}
+
+@-ms-keyframes blur-3 {
+	50% {
+		text-shadow: 0 0 0.05em rgb(0,0,0);
+	}
+}
+
+@-webkit-keyframes blur-3 {
+	50% {
+		text-shadow: 0 0 0.05em rgb(0,0,0);
+	}
+}
+
+@-moz-keyframes blur-3 {
+	50% {
+		text-shadow: 0 0 0.05em rgb(0,0,0);
+	}
+}
+
+@keyframes wobble {
+	from, to {
+		transform: rotateY(-45deg);
+	}
+	50% {
+		transform: rotateY(45deg);
+	}
+}
+
+@-o-keyframes wobble {
+	from, to {
+		-o-transform: rotateY(-45deg);
+	}
+	50% {
+		-o-transform: rotateY(45deg);
+	}
+}
+
+@-ms-keyframes wobble {
+	from, to {
+		-ms-transform: rotateY(-45deg);
+	}
+	50% {
+		-ms-transform: rotateY(45deg);
+	}
+}
+
+@-webkit-keyframes wobble {
+	from, to {
+		-webkit-transform: rotateY(-45deg);
+	}
+	50% {
+		-webkit-transform: rotateY(45deg);
+	}
+}
+
+@-moz-keyframes wobble {
+	from, to {
+		-moz-transform: rotateY(-45deg);
+	}
+	50% {
+		-moz-transform: rotateY(45deg);
+	}
 }
 
 
@@ -410,7 +673,7 @@ h3
 			}
 			#li1, #li2, #li3
 			{
-			font-size: 85%;
+			font-size: 80%;
 			}
 			.fa-mobile-alt, .fa-list-ul, .fa-store
 			{
@@ -419,6 +682,11 @@ h3
 			}
 			.petittitre
 			{
-			font-size: 70%;	
+			font-size: 85%;
+			white-space: nowrap;	
+			}
+			button
+			{
+			font-size: 100%;
 			}
 }
