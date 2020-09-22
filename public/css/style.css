@@ -243,7 +243,7 @@ ol
 	border-radius: 5%;
 	margin-right: 10%;
 	margin-left: 10%;
-	padding-bottom: 1%;
+	padding-bottom: 0.2%;
 	box-shadow: 5px 5px 5px #c7c4c4;
 }
 
@@ -316,7 +316,8 @@ h3
 	padding-left: 60%;
     padding-bottom: 50%;
 	font-size: 70%;
-	padding-top: 40%;
+	padding-top: 15px;
+  
 }
 .far.fa-heart
 {
@@ -636,6 +637,7 @@ span:nth-last-child(3) {
 			{
 			max-height: 40%;
 			max-width:80%;
+			padding-bottom: 1%;
 			}
 			#li1, #li2, #li3
 			{
@@ -653,6 +655,11 @@ span:nth-last-child(3) {
 			.texto
 			{
 			font-size: 140%;
+			}
+			.paletteimg
+			{
+				width: 100%;
+			height: 180px;
 			}
 }
 
@@ -679,6 +686,7 @@ span:nth-last-child(3) {
 			{
 			max-height: 40%;
 			max-width:80%;
+			padding-bottom: 1%;
 			}
 			#li1, #li2, #li3
 			{
@@ -691,7 +699,7 @@ span:nth-last-child(3) {
 			}
 			.petittitre
 			{
-			font-size: 85%;
+			font-size: 75%;
 			white-space: nowrap;	
 			}
 			button
@@ -705,4 +713,9 @@ span:nth-last-child(3) {
 			.paletteimg
 			{
 			height: 150px;
+			}
+			.fas.fa-heart
+			{
+		     padding-top: 15px;
+			}
 }
