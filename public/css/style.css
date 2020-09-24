@@ -71,7 +71,6 @@ button:hover
 {
     background: linear-gradient(#efc0fa, #c9a4f5);
     box-shadow: 10px 10px 10px #545252;
-    transform: scale(1.15); /*augmente taille bouton*/
 }
 section
 {
@@ -247,10 +246,6 @@ ol
 	box-shadow: 5px 5px 5px #c7c4c4;
 }
 
-.palette:hover
-{
-    transform: scale(1.08)
-}
 .petittitre
 {
 	font-size: 80%;
@@ -659,7 +654,7 @@ span:nth-last-child(3) {
 			.paletteimg
 			{
 				width: 100%;
-			height: 180px;
+			height: 400px;
 			}
 }
 
@@ -712,7 +707,7 @@ span:nth-last-child(3) {
 			}
 			.paletteimg
 			{
-			height: 150px;
+			height: 250px;
 			}
 			.fas.fa-heart
 			{

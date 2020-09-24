@@ -63,7 +63,6 @@ button:hover
 {
   background: linear-gradient(#efc0fa, #c9a4f5);
   box-shadow: 10px 10px 10px #545252;
-  transform: scale(1.15); /*augmente taille bouton*/
 }
 header 
 {
